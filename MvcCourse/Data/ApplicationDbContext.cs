@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using MvcCourse.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,5 +13,6 @@ namespace MvcCourse.Data
         {
 
         }
+        public DbSet<Category> Category { get; set; }
     }
 }
