@@ -431,3 +431,4 @@ C:\Users\User\Desktop\.net core mvc\MvcCourse\MvcCourse\bin\Debug\net5.0\runtime
 C:\Users\User\Desktop\.net core mvc\MvcCourse\MvcCourse\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\User\Desktop\.net core mvc\MvcCourse\MvcCourse\obj\Debug\net5.0\Razor\Views\Category\Index.cshtml.g.cs
 C:\Users\User\Desktop\.net core mvc\MvcCourse\MvcCourse\obj\Debug\net5.0\Razor\Views\Category\Create.cshtml.g.cs
+C:\Users\User\Desktop\.net core mvc\MvcCourse\MvcCourse\obj\Debug\net5.0\Razor\Views\Category\Edit.cshtml.g.cs
