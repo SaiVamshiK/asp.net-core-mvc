@@ -20,5 +20,9 @@ namespace MvcCourse.Controllers
             IEnumerable<Category> obj = _db.Category;
             return View(obj);
         }
+        public IActionResult Create()
+        {
+            return View();
+        }
     }
 }
