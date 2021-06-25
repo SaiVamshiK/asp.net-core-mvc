@@ -20,9 +20,19 @@ namespace MvcCourse.Controllers
             IEnumerable<Category> obj = _db.Category;
             return View(obj);
         }
+        // GET
         public IActionResult Create()
         {
             return View();
+        }
+        // POST
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(Category obj)
+        {
+            _db.Category.Add(obj);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
         }
     }
 }
